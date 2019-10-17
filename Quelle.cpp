@@ -1,10 +1,4 @@
-/******************************************************************************
 
-							Online C Compiler.
-				Code, Compile, Run and Debug C program online.
-Write your code in this editor and press "Run" button to compile and execute it.
-
-*******************************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <Windows.h>
@@ -24,7 +18,7 @@ void printbits(unsigned int bits, unsigned char fill)
 		bits = bits / 2;
 	}
 
-	//füllen
+	//fÃ¼llen
 	if (fill == 'y' || fill == 'Y')
 	{
 		for (; i < 32; i++)
